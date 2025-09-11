@@ -588,6 +588,10 @@ footer .copyright{
     color: #c9cbce;
     z-index: -9;
 }
+
+#page-header.about-header{
+    background-image: url(./img/about/banner.png);
+}
 @media (max-width:799px) {
     .section-p1 {
         padding: 40px 40px;
