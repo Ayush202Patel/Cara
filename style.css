@@ -589,8 +589,20 @@ footer .copyright{
     z-index: -9;
 }
 
-#page-header.about-header{
+#page-header .about-header{
     background-image: url(./img/about/banner.png);
+}
+#about-head{
+    display: flex;
+    align-items:center;
+}
+#about-head div{
+    padding-left: 40PX;
+}
+#about-head img{
+    width: 50%;
+    height: auto;
+
 }
 @media (max-width:799px) {
     .section-p1 {
