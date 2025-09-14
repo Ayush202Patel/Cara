@@ -780,4 +780,20 @@ footer .copyright{
     #blog .blog-details {
         width: 100%;
     }
+
+    #about-head {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #about-head img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #about-head div {
+        padding-left: 0px;
+    }
+    #about-app .video {
+        width: 100%;
+    }
 }
