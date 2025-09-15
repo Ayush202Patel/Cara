@@ -589,7 +589,7 @@ footer .copyright{
     z-index: -9;
 }
 
-#page-header .about-header{
+#page-header.about-header{
     background-image: url(./img/about/banner.png);
 }
 #about-head{
