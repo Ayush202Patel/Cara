@@ -705,6 +705,9 @@ footer .copyright {
   color: #000;
 }
 
+#cart {
+  overflow-x: auto;
+}
 #cart table {
   width: 100%;
   border-collapse: collapse;
@@ -763,9 +766,11 @@ footer .copyright {
   width: 50%;
   margin-bottom: 30px;
 }
-#coupon h3 {
+#coupon h3,
+#subtotal h3 {
   padding-bottom: 15px;
 }
+
 #coupon input {
   padding: 10px 20px;
   outline: none;
@@ -773,7 +778,8 @@ footer .copyright {
   margin-right: 10px;
   border: 1px solid #e2e9e1;
 }
-#coupon button {
+#coupon button,
+#subtotal button {
   color: #fff;
   background-color: #088178;
   padding: 12px 20px;
@@ -998,5 +1004,15 @@ footer .copyright {
   #form-details form {
     width: 100%;
     margin-bottom: 30px;
+  }
+  #cart-add {
+    flex-direction: column;
+  }
+  #coupon {
+    width: 100%;
+  }
+  #subtotal {
+    width: 100%;
+    padding: 20px;
   }
 }
